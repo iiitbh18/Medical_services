@@ -1,27 +1,31 @@
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Box, Center, Grid, Heading, Image, Link, Text } from "@chakra-ui/react";
+// Import the CustomButton component
+import { Button } from "@chakra-ui/react";
+
 
 export default function ShopByCategory() {
     const showByCategory = [
         {
             id: 1,
-            title: 'Ayush'
+            title: 'Veterinary drug'
         },
+
         {
             id: 2,
-            title: 'Hair Care'
+            title: 'Nutrition Product'
         },
         {
             id: 3,
-            title: 'Body Care'
+            title: 'Ayurvedic'
         },
         {
             id: 4,
-            title: 'Treatments'
+            title: 'Homeopathy'
         },
         {
             id: 5,
-            title: 'Cold And Fever'
+            title: 'Allopathy '
         }
     ]
   return (
@@ -39,8 +43,16 @@ export default function ShopByCategory() {
                 showByCategory.map(((el, index) => (
                     <Box w={{base: '200px', md: '18vw'}} key={el.id} bg='#fff' p='30px 20px' borderRadius={6} boxShadow='md' cursor='pointer'>
                         <Center><Image h={{base: '120px', md: '180px'}} w='100%' src={process.env.PUBLIC_URL+`/Images/netmedSBC${index+1}.jpg`}></Image></Center>
-                        <Center><Text mt='20px' fontWeight={'600'}>{el.title}</Text></Center>
-                    </Box>
+                        <Center><Text mt='20px' fontWeight={'600'}>
+                        <Link>
+        {el.title}
+        <Button ml="2" colorScheme="blue" size="sm">
+            Click here
+        </Button>
+       
+    </Link>
+                        </Text></Center>
+                    </Box>                  
                 )))
             }
         </Grid>

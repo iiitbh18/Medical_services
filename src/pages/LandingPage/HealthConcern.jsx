@@ -1,20 +1,21 @@
 import React from 'react'
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Box, Center, Grid, Heading, Image, Link, Text } from "@chakra-ui/react";
+import { Button } from "@chakra-ui/react";
 
 export default function HealthConcern() {
     const healthConcernData = [
         {
             id: 1,
-            title: 'Lung Care'
+            title: 'Heart Health'
         },
         {
             id: 2,
-            title: 'Weight Care'
+            title: 'Fitness'
         },
         {
             id: 3,
-            title: "Women's Care"
+            title: "Women's Health"
         },
         {
             id: 4,
@@ -37,7 +38,14 @@ export default function HealthConcern() {
                 healthConcernData.map(((el, index) => (
                     <Box w={{base: '200px', md: '18vw'}} key={el.id} bg='#fff' h='300px' p='30px 20px' borderRadius={6} boxShadow='md' cursor='pointer'>
                         <Center><Image mt='30px' h={{base: '100%', md: '100px'}} w='50%' src={process.env.PUBLIC_URL+`/Images/netmedHC${index+1}.jpg`}></Image></Center>
-                        <Center><Text  fontWeight={'600'} mt='50px'>{el.title}</Text></Center>
+                        <Center><Text  fontWeight={'600'} mt='50px'>
+                        <Link>
+        {el.title}
+        <Button ml="2" colorScheme="blue" size="sm">
+            Click here
+        </Button>
+    </Link>
+                        </Text></Center>
                     </Box>
                 )))
             }
