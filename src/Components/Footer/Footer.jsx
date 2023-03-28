@@ -24,8 +24,9 @@ const Footer = () => {
       <Flex>
         <Box>
           <Image
-            src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg"
-            alt="NetmedsLogo"
+            //src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg"
+            src="https://i.postimg.cc/qM9y4VJq/logo192.png"
+            alt="Medicalmart logo"
             w={"168px"}
             minWidth="168px"
             maxWidth="168px"
@@ -33,8 +34,8 @@ const Footer = () => {
         </Box>
         <Container size={"md"} centerContent={false}>
           <Text fontSize={"16px"} color="rgb(44, 51, 51)">
-            Netmeds.com is one of India’s most trusted pharmacies, dispensing
-            quality medicines at reasonable prices to over 7 million happy
+            MEDICALMART.COM is one of  India’s  pharmacies startup, delivers All Allopathyy,Ayurvedic,Homeoathy and other important products,
+            quality medicines at reasonable prices.
             customers – PAN India.
           </Text>
         </Container>
@@ -56,7 +57,8 @@ const Footer = () => {
         <Text fontSize="14px" as={'button'}>Wellness</Text>
         <Text fontSize="14px" as={'button'}>Lab Tests</Text>
         <Text fontSize="14px" as={'button'}>Beauty</Text>
-        <Text fontSize="14px" as={'button'}>Copyright &#169; All Rights Reserved.</Text>
+        <Text fontSize="14px" as={'button'}>Copyright &#169; All Rights Reserved by Aradhna , Bhaskar</Text>
+        
       </Flex>
     </Box>
   );

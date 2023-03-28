@@ -4,6 +4,8 @@ import UserButton from "./UserButton";
 import InputComponent from "./InputComponent";
 import { Link } from "react-router-dom";
 import CartNavbar from "./CartNavbar";
+
+
 const TopNavbar = () => {
   return (
     <>
@@ -14,16 +16,17 @@ const TopNavbar = () => {
       zIndex="1"
     >
       
-      <Container width={"100%"} maxW='100%' bg={"rgb(57, 91, 100)"} paddingBlock="15px" >
+      <Container width={"100%"} maxW='100%' bg={"rgb(63, 57, 100)"} paddingBlock="15px" >
         <Flex justifyContent={"center"} gap="20px" alignItems={"center"}>
           <Link to={"/"}>
             <Box paddingRight={"20px"}>
-              <Image
-                src="https://nms-assets.s3-ap-south-1.amazonaws.com/images/cms/aw_rbslider/slides/1663609483_netmeds-new-logo.svg"
-                alt="NetmedsLogo"
+            <Image
+                //src="https://nms-assets.s3-ap-south-1.amazonaws.com/images/cms/aw_rbslider/slides/1663609483_netmeds-new-logo.svg"
+                src="https://i.postimg.cc/qM9y4VJq/logo192.png"
+                alt="MedicalmartLogo"
                 w={"168px"}
-                minWidth="168px"
-                maxWidth="168px"
+                minWidth="20px"
+                maxWidth="80px"
               ></Image>
             </Box>
           </Link>

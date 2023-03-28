@@ -44,7 +44,7 @@ export default function ShopByCategory() {
                     <Box w={{base: '200px', md: '18vw'}} key={el.id} bg='#fff' p='30px 20px' borderRadius={6} boxShadow='md' cursor='pointer'>
                         <Center><Image h={{base: '120px', md: '180px'}} w='100%' src={process.env.PUBLIC_URL+`/Images/netmedSBC${index+1}.jpg`}></Image></Center>
                         <Center><Text mt='20px' fontWeight={'600'}>
-                        <Link>
+                        <Link key={index} to={`/products`}>
         {el.title}
         <Button ml="2" colorScheme="blue" size="sm">
             Click here

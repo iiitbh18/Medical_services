@@ -66,11 +66,11 @@ const NewsLetter = () => {
       {error && <Text textColor={"red"}>Please enter your E-mail ID!</Text>}
       <Flex justifyContent="space-around" pt={"20px"}>
         <Image
-          src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.png"
+          //src="https://www.netmeds.com/assets/gloryweb/images/icons/play_store.png"
           width={"45%"}
         />
         <Image
-          src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.png"
+         // src="https://www.netmeds.com/assets/gloryweb/images/icons/app_store.png"
           width={"45%"}
         />
       </Flex>

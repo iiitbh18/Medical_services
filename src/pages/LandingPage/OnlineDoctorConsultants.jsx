@@ -8,13 +8,13 @@ export const OnlineDoctorConsultants = () => {
             <Flex>
                 <Center>
                     <Box>
-                        <Image w={{base: '100px', md: '90px'}} h={{base: '100px', md: '90px'}} src='https://www.netmeds.com/assets/glorymsite/images/icons/new_icons/online_consultation.svg'></Image>
+                        <Image w={{base: '100px', md: '90px'}} h={{base: '100px', md: '90px'}} src='https://i.postimg.cc/524B4Wv5/doctor-consultation-icon-flat-design-vector-6654149.jpg'></Image>
                    </Box>
                 </Center>
                 <Box ml='30px'>
-                    <Heading as='h6' mb='10px' size={'md'} fontWeight='500'>Easy Online Doctor Consultations</Heading>
-                        <Text fontSize={'sm'}>Skip the queue! Speak with a doctor right now</Text>
-                        <Text mb='5px' fontSize={'sm'}>More than 25+ specialities to choose from, starting at just ₹149</Text>
+                    <Heading as='h6' mb='10px' size={'md'} fontWeight='500'>Fast Online Doctor Consultations</Heading>
+                        <Text fontSize={'sm'}>No need to wait your turn ! Consult with a doctor right now</Text>
+                        <Text mb='5px' fontSize={'sm'}>More than 25+ specialities to choose from, starting at just ₹199</Text>
                 </Box>
             </Flex>
             <Flex alignItems={'center'} justifyContent={{base: '', md: 'flex-end'}}>

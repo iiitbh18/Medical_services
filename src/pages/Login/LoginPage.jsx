@@ -46,10 +46,12 @@ const Signin = () => {
         margin={"60px"}
         mb='20px'
       >
-        <Flex>
+        <Flex justifyContent="flex-end">
           <Box>
             <Image
+              
               width="100%"
+              ml={"600px"}
               maxW={"488px"}
               src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png"
             />

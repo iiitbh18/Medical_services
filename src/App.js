@@ -38,6 +38,7 @@ function App() {
     <div className="App">
       <MainNavbar />
       <AllRoutes />
+      
     </div>
   );
 }

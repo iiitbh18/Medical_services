@@ -19,11 +19,11 @@ export default function HealthConcern() {
         },
         {
             id: 4,
-            title: 'Bone And Joint Pain'
+            title: 'Cancer treatment'
         },
         {
             id: 5,
-            title: 'Cold And Fever'
+            title: 'Mental Health'
         }
     ]
   return (

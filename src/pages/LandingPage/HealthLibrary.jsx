@@ -29,7 +29,7 @@ export default function HealthLibrary() {
                     <Heading color='#fff' as='h2' fontSize='25px' fontWeight='500'>Health Library</Heading>
                 </Box>
                 <Box>
-                    <Link color='#fff' style={{textDecoration: 'none'}} ><Text>View All <ChevronRightIcon/></Text></Link>
+                    <Link color='#fff' style={{textDecoration: 'none'}} ><Text> <ChevronRightIcon/></Text></Link>
                 </Box>
             </Box>
         </Box>
@@ -40,7 +40,13 @@ export default function HealthLibrary() {
                         healthLibraryData.map(((el, index) => (
                             <Box w={{base: '200px', md: '100%'}} h={{base: '140px', lg:'190px'}} key={el.id} boxShadow='rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px' bg='#fff' borderRadius={6} cursor='pointer'>
                                 <Center><Image  w='100%' borderRadius='6px 6px 0 0' src={process.env.PUBLIC_URL+`/Images/netmedHL${index+1}.jpg`}></Image></Center>
-                                <Center><Text noOfLines={[1,2]} textOverflow="ellipsis" m='15px' fontSize={{base: '12px', lg: '15px'}} h='40px' fontWeight={'600'}>{el.title}</Text></Center>
+
+                                <Center><Text noOfLines={[1,2]} textOverflow="ellipsis" m='15px' fontSize={{base: '12px', lg: '15px'}} h='40px' fontWeight={'600'}>
+                                <Link>
+                                {el.title}
+                                </Link>
+
+                                </Text></Center>
                             </Box>
                         )))
                     }
