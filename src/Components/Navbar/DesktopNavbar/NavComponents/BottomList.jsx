@@ -2,18 +2,18 @@ import { Box, Container, Flex, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 const BottomList = () => {
   const ListArray = [
-    "COVID Essentials",
-    "Diabetes",
-    "Eyewear",
-    "Ayush",
     "Ayurvedic",
     "Homeopathy",
+    "Allopathic",
+    "Nutrition Product",
+    "Veterinary drug",
+    
     "Fitness",
-    "Mom & Baby",
-    "Devices",
-    "Surgicals",
-    "Sexual Wellness",
-    "Treatments",
+    "Heart Health",
+    "Fitness",
+    "Womens health",
+    "Cancer treatment",
+    "Mental health",
   ];
   return (
     <Box bg='rgb(165, 201, 202)' padding={'10px'} >
