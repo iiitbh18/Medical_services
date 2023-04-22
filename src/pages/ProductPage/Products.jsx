@@ -11,6 +11,8 @@ import ProductSortingStrip from './ProductSortingStrip'
 
 
 
+
+
 function Products() {
     const { handleReset } = useContext(Data);
 
@@ -37,7 +39,7 @@ function Products() {
                     <ProductSortingStrip />
                     <AllProduct />
                 </Box>
-            </Box >
+            </Box>
         </Box>
     )
 }

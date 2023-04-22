@@ -24,7 +24,7 @@ const Footer = () => {
       <Flex>
         <Box>
           <Image
-            //src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg"
+            //src="https://
             src="https://i.postimg.cc/qM9y4VJq/logo192.png"
             alt="Medicalmart logo"
             w={"168px"}
@@ -53,11 +53,10 @@ const Footer = () => {
         <Divider orientation="horizontal" borderColor="rgb(57, 91, 100)" />
       </Center>
       <Flex justifyContent={'space-between'} color='rgb(44, 51, 51)'>
-        <Text fontSize="14px" as={'button'}>Medicine</Text>
-        <Text fontSize="14px" as={'button'}>Wellness</Text>
-        <Text fontSize="14px" as={'button'}>Lab Tests</Text>
-        <Text fontSize="14px" as={'button'}>Beauty</Text>
+        
+        
         <Text fontSize="14px" as={'button'}>Copyright &#169; All Rights Reserved by Aradhna , Bhaskar</Text>
+        <Text>This website solemny made for educational purposes, Content for blogs has been taken from different websites</Text>
         
       </Flex>
     </Box>

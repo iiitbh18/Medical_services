@@ -11,6 +11,25 @@ import Products from "../../pages/ProductPage/Products";
 import { useSelector } from "react-redux";
 import { PrivateRoute } from "../../context/PrivateRoute";
 import ErrorPage from "../../pages/ErrorPage";
+import HealthConcern from "../../pages/LandingPage/HealthConcern";
+import HeartHealth from "../../pages/LandingPage/HeartHealth";
+import Fitness from "../../pages/LandingPage/Fitness";
+import WomensHealth from "../../pages/LandingPage/WomensHealth";
+import CancerTreatment from "../../pages/LandingPage/CancerTreatment";
+import MentalHealth from "../../pages/LandingPage/MentalHealth";
+import ShopBycategory from "../../pages/LandingPage/ShopByCategory";
+
+import Veterinary from "../../pages/LandingPage/veterinary";
+import Nutrition from "../../pages/LandingPage/nutrition";
+import Ayurvedic from "../../pages/LandingPage/ayurvedic";
+import Homeopathy from "../../pages/LandingPage/homeopathy";
+import Allopathy from "../../pages/LandingPage/allopathy";
+
+
+
+
+
+
 
 export const AllRoutes = () => {
   const mobileView = useSelector((state) => state.mobileView);
@@ -58,6 +77,152 @@ export const AllRoutes = () => {
           </PrivateRoute>
         }
       ></Route>
+     
+     <Route
+        path="/"
+        element={
+          <>
+            <Landing /> <Footer />
+          </>
+        }
+      ></Route>
+<Route
+        path="/"
+        element={
+          <>
+            <HealthConcern /> <Footer />
+          </>
+        }
+      ></Route>
+
+<Route
+        path="/heart-health"
+        element={
+          <>
+            <HeartHealth /> 
+          </>
+        }
+      ></Route>
+
+<Route
+        path="/fitness"
+        element={
+          <>
+            <Fitness />
+
+          </>
+        }
+      ></Route>
+
+<Route
+        path="/womens-health"
+        element={
+          <>
+            <WomensHealth
+             />
+
+          </>
+        }
+      ></Route>
+
+
+<Route
+        path="/cancer-treatment"
+        element={
+          <>
+            <CancerTreatment
+             />
+
+          </>
+        }
+      ></Route>
+
+<Route
+        path="/mental-health"
+        element={
+          <>
+            <MentalHealth />
+
+          </>
+        }
+      ></Route>
+
+
+
+<Route
+        path="/"
+        element={
+          <>
+            <ShopBycategory /> <Footer />
+          </>
+        }
+      ></Route>
+
+
+<Route
+        path="/veterinary"
+        element={
+          <>
+            <Veterinary />
+
+          </>
+        }
+      ></Route>
+      <Route
+        path="/nutrition"
+        element={
+          <>
+            <Nutrition />
+
+          </>
+        }
+      ></Route>
+      <Route
+        path="/homeopathy"
+        element={
+          <>
+            <Homeopathy />
+
+          </>
+        }
+      ></Route>
+      <Route
+        path="/ayurvedic"
+        element={
+          <>
+            <Ayurvedic />
+
+          </>
+        }
+      ></Route>
+
+<Route
+        path="/allopathy"
+        element={
+          <>
+            <Allopathy />
+
+          </>
+        }
+      ></Route>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <Route
         path="*"
         element={

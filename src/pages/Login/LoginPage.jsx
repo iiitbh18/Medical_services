@@ -53,6 +53,7 @@ const Signin = () => {
               width="100%"
               ml={"600px"}
               maxW={"488px"}
+             // src="https://static.vecteezy.com/system/resources/thumbnails/001/060/223/small/rocket-is-flying-in-galaxy-space-of-the-universe.jpg"
               src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png"
             />
           </Box>

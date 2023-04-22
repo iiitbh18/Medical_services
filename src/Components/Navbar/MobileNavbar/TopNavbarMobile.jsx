@@ -19,7 +19,8 @@ const MobileNavbar = () => {
         justifyContent="space-between"
       >
         <Link to='/'><Image
-          src="https://www.netmeds.com/assets/gloryweb/images/netmeds-footer-logo.svg"
+         
+          src="https://i.postimg.cc/SQMnsXQj/logo192.png"
           alt="netmedslogomobile"
           width={"110px"}
         ></Image></Link>
